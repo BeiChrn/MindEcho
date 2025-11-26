@@ -1,0 +1,93 @@
+
+
+.pageWrapper {
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+.sidebarCollapsed {
+  width: 56px;
+}
+
+.sidebarExpanded {
+  width: 240px;
+}
+
+.mainContentExpanded {
+  margin-left: 240px;
+}
+
+.mainContentCollapsed {
+  margin-left: 56px;
+}
+
+.navItem {
+  transition: all 0.2s ease;
+}
+
+.navItem:hover {
+  background-color: rgba(122, 71, 252, 0.05);
+}
+
+.navItemActive {
+  background-color: rgba(122, 71, 252, 0.1);
+  border-right: 3px solid #7a47fc;
+}
+
+.uploadArea {
+  border: 2px dashed #d1d5db;
+  transition: all 0.3s ease;
+}
+
+.uploadArea:hover {
+  border-color: #7a47fc;
+  background-color: rgba(122, 71, 252, 0.02);
+}
+
+.uploadAreaDragover {
+  border-color: #7a47fc;
+  background-color: rgba(122, 71, 252, 0.05);
+}
+
+.progressBar {
+  background: linear-gradient(90deg, #7a47fc 0%, #456dfc 100%);
+  height: 8px;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.fileItem {
+  transition: all 0.2s ease;
+}
+
+.fileItem:hover {
+  background-color: rgba(122, 71, 252, 0.02);
+}
+
+.checkboxCustom {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d1d5db;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.checkboxCustom:checked {
+  background-color: #7a47fc;
+  border-color: #7a47fc;
+}
+
+.checkboxCustom:checked::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+

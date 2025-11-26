@@ -1,0 +1,91 @@
+
+
+.pageWrapper {
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+.sidebarCollapsed {
+  width: 56px;
+}
+
+.sidebarExpanded {
+  width: 240px;
+}
+
+.mainContentExpanded {
+  margin-left: 240px;
+}
+
+.mainContentCollapsed {
+  margin-left: 56px;
+}
+
+.navItem {
+  transition: all 0.2s ease;
+}
+
+.navItem:hover {
+  background-color: rgba(122, 71, 252, 0.05);
+}
+
+.navItem.active {
+  background-color: rgba(122, 71, 252, 0.1);
+  border-right: 3px solid #7a47fc;
+}
+
+.tableRow:hover {
+  background-color: rgba(122, 71, 252, 0.02);
+}
+
+.fileTypeIcon {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.fileTypePdf {
+  background-color: #ff4757;
+  color: white;
+}
+
+.fileTypeEpub {
+  background-color: #5352ed;
+  color: white;
+}
+
+.fileTypeDocx {
+  background-color: #3742fa;
+  color: white;
+}
+
+.fileTypeTxt {
+  background-color: #2ed573;
+  color: white;
+}
+
+.sortButton {
+  transition: all 0.2s ease;
+}
+
+.sortButton:hover {
+  background-color: rgba(122, 71, 252, 0.1);
+}
+
+.sortAsc::after {
+  content: "↑";
+  margin-left: 4px;
+  color: #7a47fc;
+}
+
+.sortDesc::after {
+  content: "↓";
+  margin-left: 4px;
+  color: #7a47fc;
+}
+

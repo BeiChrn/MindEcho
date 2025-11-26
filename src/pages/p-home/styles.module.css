@@ -1,0 +1,53 @@
+
+
+.pageWrapper {
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+.sidebarCollapsed {
+  width: 56px;
+}
+
+.sidebarExpanded {
+  width: 240px;
+}
+
+.mainContentExpanded {
+  margin-left: 240px;
+}
+
+.mainContentCollapsed {
+  margin-left: 56px;
+}
+
+.navItem {
+  transition: all 0.2s ease;
+}
+
+.navItem:hover {
+  background-color: rgba(122, 71, 252, 0.05);
+}
+
+.navItemActive {
+  background-color: rgba(122, 71, 252, 0.1);
+  border-right: 3px solid #7a47fc;
+}
+
+.featureCard {
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.heroGradient {
+  background: linear-gradient(135deg, #7a47fc 0%, #4545fc 50%, #456dfc 100%);
+}
+
+.statsCard {
+  background: linear-gradient(135deg, rgba(122, 71, 252, 0.1) 0%, rgba(69, 109, 252, 0.1) 100%);
+}
+
